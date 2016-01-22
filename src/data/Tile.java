@@ -23,6 +23,11 @@ public class Tile {
 
 	}
 
+	public void DRAW() {
+		VERT v = new VERT();
+		v.cVERT(tex, x, y, wight, hight);
+	}
+
 	public float getX() {
 		return x;
 	}

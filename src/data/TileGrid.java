@@ -4,7 +4,7 @@ import helpers.Artist;
 
 public class TileGrid {
 
-	public void mTileGrid(){
+	public void mTileGrid() {
 		Tile tile = new Tile(0, 0, 64, 64, TileType.Grass);
 		Tile tile2 = new Tile(0, 64, 64, 64, TileType.Grass);
 		Tile tile3 = new Tile(0, 64, 64, 64, TileType.Grass);
@@ -20,13 +20,12 @@ public class TileGrid {
 		Tile t4 = new Tile(0, 64, 64, 64, TileType.Grass);
 		Tile t6 = new Tile(0, 64, 64, 64, TileType.Grass);
 		Tile t5 = new Tile(0, 64, 64, 64, TileType.Grass);
-
-
-
+		//Tile b0 = new Tile(64, 64, 64, 64, TileType.Dirt);
 		
-//x = Wie hoch
-		//y == Wie Breite
-//x = first
+
+		// x = Wie hoch
+		// y == Wie Breite
+		// x = first
 		tile.Draw();
 		tile2.Draw();
 		tile3.Draw();
@@ -40,8 +39,8 @@ public class TileGrid {
 		t3.Draw();
 		t4.Draw();
 		t5.Draw();
-		
 
-		
+		//b0.Draw();
+
 	}
 }

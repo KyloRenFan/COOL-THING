@@ -52,7 +52,7 @@ public class Artist extends boot {
 		glTexCoord2f(0, 1);
 		glVertex2f(0, hight);
 		glEnd();
-		// glLoadIdentity();
+		//glLoadIdentity();
 
 	}
 
@@ -72,5 +72,6 @@ public class Artist extends boot {
 		tex = LoadTexture("res/" + name + ".png", "PNG");
 		return tex;
 	}
+	
 
 }

@@ -25,19 +25,20 @@ public class boot {
 		 * 
 		 * glMatrixMode(GL_PROJECTION); //glMatrixMode(GL_3D); glLoadIdentity();
 		 * glOrtho(0, 600, 400, 0, 1, -1); glMatrixMode(GL_MODELVIEW);
-		 
+		 * 
+		 * 
+		 * Tile tile = new Tile(0, 0, 64, 64, TileType.Grass); Tile tile2 = new
+		 * Tile(0, 64, 64, 64, TileType.Grass); Tile tile3 = new Tile(64, 64,
+		 * 64, 64, TileType.Grass);
+		 * 
+		 * tile.Draw(); tile2.Draw(); tile3.Draw();
+		 */
 
-		Tile tile = new Tile(0, 0, 64, 64, TileType.Grass);
-		Tile tile2 = new Tile(0, 64, 64, 64, TileType.Grass);
-		Tile tile3 = new Tile(64, 64, 64, 64, TileType.Grass);
-
-		tile.Draw();
-		tile2.Draw();
-		tile3.Draw();
-		*/
-		
 		TileGrid t = new TileGrid();
 		t.mTileGrid();
+		GD t2 = new GD();
+		t2.mGD();
+
 		Display.update();
 		Display.sync(60);
 
